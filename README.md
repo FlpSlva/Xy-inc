@@ -8,6 +8,7 @@
     <a href="#pré-requisitos">Pré-requisitos</a> - 
     <a href="#executando-api">Executando API</a> -
     <a href="#modo-de-uso">Modo De Uso</a> -
+    <a href="#técnologias-utilizadas">Técnologias Utilizadas</a>
 
 
 </p>
@@ -74,5 +75,8 @@ $ docker-compose up
  - [Postgresql](https://www.postgresql.org/)
  - [Docker](https://www.docker.com/)
  - [Tsyringe](https://www.npmjs.com/package/tsyringe)
+ 
+ 
+ 
 
 #### Feito Por [Felipe Da Silva](https://www.linkedin.com/in/felipe-da-silva-/)
