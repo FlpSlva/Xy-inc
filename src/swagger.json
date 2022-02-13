@@ -1,0 +1,129 @@
+{
+
+	"openapi": "3.0.0",
+	"info": {
+		"title": "Xy-inc Documentation",
+		"decription": "This is an API Rent",
+		"version": "1.0.0",
+		"contact": {
+				"email": "flpslvadev@gmail.com"
+		}
+    },
+    "paths": {
+        "/pointInterest/create": {
+            "post": {
+                "tags": ["POIS"],
+                "summary": "Create a POIS",
+                "description": "Create A New POIS",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "name": {
+                                        "type": "string"
+                                    }, 
+                                    "x": {
+                                        "type": "number"
+                                    },
+                                    "y": {
+                                        "type": "number"
+                                    }
+                                },
+                                "example": {
+                                    "name": "Lanchonete",
+                                    "x": "21",
+                                    "y": "12"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Created"
+                    },
+                    "400": {
+                        "description": "Name Already Exists "
+                    }
+                }
+            }
+            
+        
+        },
+        "/pointInterest/list": {
+            "get": {
+                "tags": ["POIS"],
+                "summary": "List All POIS",
+                "description": "List All POIS",
+                "responses": {
+                    "201": {
+                        "description": "Sucess",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "x": {
+                                                "type": "number"
+                                            },
+                                            "y": {
+                                                "type": "number"
+                                            } 
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        },
+        "/pointInterest/listDistance": {
+            "post": {
+                "tags": ["POIS"],
+                "summary": "List POIS By Distance",
+                "description": "List POIS By Distance",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "dMax": {
+                                        "type": "number"
+                                    },
+                                    "x": {
+                                        "type": "number"
+                                    },
+                                    "y": {
+                                        "type": "number"
+                                    }
+                                },
+                                "example": {
+                                    "dMax": "10",
+                                    "x": "20",
+                                    "y": "10"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Created"
+                    }
+                   
+                }
+            }
+        }
+	}
+    
+}
