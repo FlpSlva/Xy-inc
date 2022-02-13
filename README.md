@@ -1,6 +1,6 @@
 # XY inc.
 
-<p align="center">Esta API Foi Criada Com O Intuito De Cadastrar, Listar e Listar Por Aproximidade todos os "POIS" Pontos De Interesses</p><br>
+<p align="center">Esta API Foi Criada Com O Intuito De Cadastrar, Listar e Listar Por proximidade todos os "POIS" Pontos De Interesses</p><br>
 
 <p align="center">
     <a href="#funcionalidades">Funcionalidades</a> - 
@@ -17,7 +17,7 @@
 ## Funcionalidades
  -  [x] Cadastrar Um Novo Ponto De Interesse Em Um Banco De Dados
  -  [x] Listar Todos Os Pontos De Interesse já Cadastrados
- -  [x] Listar Por Aproximidade O Ponto De Interesse Mais Perto, Conforme Passada a Distância Em Metros
+ -  [x] Listar Por proximidade O Ponto De Interesse Mais Perto, Conforme Passada a Distância Em Metros
 
 ## Rotas
  - API0Docs
@@ -28,7 +28,7 @@
     - https://localhost:3333/pointInterest/create
  - Listar todos os pontos de interesses cadastrados
     - https://localhost:3333/pointInterest/list
- - Listar os pontos de interesses por aproximidade
+ - Listar os pontos de interesses por proximidade
     - https://localhost:3333/pointInterest/listDistance
 
 ## Pré-requisitos
@@ -67,7 +67,7 @@ $ docker-compose up
 
 ![2022-02-13 17-46-00](https://user-images.githubusercontent.com/84188331/153774901-9362b80e-9be5-4bf5-8fbf-2fa6f8efb94f.gif)
 
- - Para Listar os Pontos De Interesse por Aproximidade, basta indicar qual o valor em metros "dMax" e em seguida indicar os pontos "x, e y"
+ - Para Listar os Pontos De Interesse por proximidade, basta indicar qual o valor em metros "dMax" e em seguida indicar os pontos "x, e y"
   
 ![swagger03](https://user-images.githubusercontent.com/84188331/153775068-142a328e-8d54-4c86-8f7f-a61a1ba7acb9.gif)
 
