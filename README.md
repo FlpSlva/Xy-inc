@@ -45,6 +45,9 @@ $ git clone https://github.com/FlpSlva/Xy-inc.git
 # Acesse a pasta do projeto no terminal/cmd
 $ cd Xy-inc
 
+# Subir Migrações Pro Banco De Dados
+$ yarn typeorm migration:run
+
 # Execute a aplicação
 $ docker-compose up
 
