@@ -8,7 +8,8 @@
     <a href="#pré-requisitos">Pré-requisitos</a> - 
     <a href="#executando-api">Executando API</a> -
     <a href="#modo-de-uso">Modo De Uso</a> -
-    <a href="#técnologias-utilizadas">Técnologias Utilizadas</a>
+    <a href="#técnologias-utilizadas">Técnologias Utilizadas</a> -
+     <a href="#informações-do-banco-de-dados">Informações Do Banco De Dados</a>
 
 
 </p>
@@ -80,6 +81,12 @@ $ docker-compose up
  - [Tsyringe](https://www.npmjs.com/package/tsyringe)
  
  
- 
+ ## Informações Do Banco De Dados
+  #### Username
+    postgres
+  #### Password
+    root
+  ### Database
+    database_xy-inc
+  
 
-#### Feito Por [Felipe Da Silva](https://www.linkedin.com/in/felipe-da-silva-/)
