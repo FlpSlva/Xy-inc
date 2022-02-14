@@ -53,7 +53,7 @@ $ docker-compose up
 $ yarn | npm install
 
 # Subir Migrações Pro Banco De Dados
-$ yarn typeorm migration:run
+$ yarn typeorm migration:run | npm run typeorm migration:run
 
 # o servidor estará rodando na porta 3333
 
