@@ -14,12 +14,12 @@
 
 </p>
 
-## Funcionalidades
+## :barber: Funcionalidades
  -  [x] Cadastrar Um Novo Ponto De Interesse Em Um Banco De Dados
  -  [x] Listar Todos Os Pontos De Interesse já Cadastrados
  -  [x] Listar Por proximidade O Ponto De Interesse Mais Perto, Conforme Passada a Distância Em Metros
 
-## Rotas
+## :vertical_traffic_light: Rotas
  - API0Docs
     - http://localhost:3333/api-docs/
 
@@ -31,13 +31,13 @@
  - Listar os pontos de interesses por proximidade
     - https://localhost:3333/pointInterest/listDistance
 
-## Pré-requisitos
+## :anchor: Pré-requisitos
 
  -  Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
  [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Docker](https://www.docker.com/). 
  Além disso é bom ter um editor bom para trabalhar com o código como [VSCode](https://code.visualstudio.com/) se preferir pode usar também o [Insomnia](https://insomnia.rest/) para as rotas (preferencial)
 
-## Executando API
+## :rocket: Executando API
 
 ```bash
 # Clone Este Repositório
@@ -58,7 +58,7 @@ $ yarn typeorm migration:run | npm run typeorm migration:run
 # o servidor estará rodando na porta 3333
 
 ```
-## Modo De Uso
+## :dart: Modo De Uso
 
  ### Após ter Executado a aplicação se redirecione para [API-docs](http://localhost:3333/api-docs/), e siga os exemplos a seguir
 
@@ -74,7 +74,7 @@ $ yarn typeorm migration:run | npm run typeorm migration:run
   
 ![swagger03](https://user-images.githubusercontent.com/84188331/153775068-142a328e-8d54-4c86-8f7f-a61a1ba7acb9.gif)
 
-## Técnologias Utilizadas
+## :hammer_and_wrench: Técnologias Utilizadas
  - [Node.js](https://nodejs.org/en/)
  - [Typescript](https://www.typescriptlang.org/)
  - [Express](https://expressjs.com/pt-br/)
@@ -84,7 +84,7 @@ $ yarn typeorm migration:run | npm run typeorm migration:run
  - [Tsyringe](https://www.npmjs.com/package/tsyringe)
  
  
- ## Informações Do Banco De Dados
+ ## :game_die: Informações Do Banco De Dados
   #### Username
     postgres
   #### Password
