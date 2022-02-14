@@ -38,10 +38,10 @@ $ cd Xy-inc
 $ docker-compose up 
 
 # Instalar Todas As Dependências
-$ yarn | npm install
+$ yarn 
 
 # Subir Migrações Pro Banco De Dados
-$ yarn typeorm migration:run | npm run typeorm migration:run
+$ yarn typeorm migration:run 
 
 # o servidor estará rodando na porta 3333
 
