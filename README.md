@@ -2,18 +2,6 @@
 
 <p align="center">Esta API Foi Criada Com O Intuito De Cadastrar, Listar e Listar Por proximidade todos os "POIS" Pontos De Interesses</p><br>
 
-<p align="center">
-    <a href="#funcionalidades">Funcionalidades</a> - 
-    <a href="#rotas">Rotas</a> -
-    <a href="#pré-requisitos">Pré-requisitos</a> - 
-    <a href="#executando-api">Executando API</a> -
-    <a href="#modo-de-uso">Modo De Uso</a> -
-    <a href="#técnologias-utilizadas">Técnologias Utilizadas</a> -
-     <a href="#informações-do-banco-de-dados">Informações Do Banco De Dados</a>
-
-
-</p>
-
 ## :barber: Funcionalidades
  -  [x] Cadastrar Um Novo Ponto De Interesse Em Um Banco De Dados
  -  [x] Listar Todos Os Pontos De Interesse já Cadastrados
